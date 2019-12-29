@@ -1,0 +1,11 @@
+﻿.list-style-override {
+  list-style: none !important;
+}
+
+.margin-bottom-override {
+    margin-bottom: 0px !important;
+}
+
+.right-readable-text {
+    text-align: right;
+}
