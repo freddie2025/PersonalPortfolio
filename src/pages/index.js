@@ -6,8 +6,8 @@ import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import Projects from '../components/Projects'
 import Resume from '../components/Resume'
-import Layout from "../components/Layout"
-import SEO from "../components/Seo"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faHeart, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
