@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import pdf from '../documents/Frederick-James-Curriculum-Vitae.pdf';
 import '../styles/nav.css'; 
 
+if (typeof document !== 'undefined') {
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -26,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-});
+})
+};
 
 class Nav extends Component { 
     render() {
