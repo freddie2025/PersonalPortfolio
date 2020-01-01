@@ -4,8 +4,8 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-import 'bulma/css/bulma.css'
 import "../styles/layout.css";
+import 'bulma/css/bulma.css'
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
