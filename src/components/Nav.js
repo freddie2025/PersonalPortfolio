@@ -4,30 +4,30 @@ import pdf from '../documents/Frederick-James-Curriculum-Vitae.pdf';
 import '../styles/nav.css'; 
 
 if (typeof document !== 'undefined') {
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
 
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
 
-        // Add a click event on each of them
-        $navbarBurgers.forEach(el => {
-            el.addEventListener('click', () => {
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
 
-                // Get the target from the "data-target" attribute
-                const target = el.dataset.target;
-                const $target = document.getElementById(target);
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
 
-                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                el.classList.toggle('is-active');
-                $target.classList.toggle('is-active');
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
 
+                });
             });
-        });
-    }
-})
+        }
+    })
 };
 
 class Nav extends Component { 
@@ -56,7 +56,7 @@ class Nav extends Component {
                         <a className="navbar-link" href="#Nav">Resume</a>
                         <div className="navbar-dropdown border-radius-override">
                             <a className="navbar-item" href="#experience">Work Experience</a>
-                            <a className="navbar-item" href="#education">Eductaion</a>
+                            {/*<a className="navbar-item" href="#education">Eductaion</a>*/}
                             <a className="navbar-item" href="#skills">Skills</a>
                             <a className="navbar-item" href="#references">References</a>
                             <hr className="navbar-divider" />

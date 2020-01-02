@@ -51,7 +51,7 @@ export default function Contact() {
                                             <div className="field-body">
                                                 <div className="field">
                                                     <p className="control has-icons-left">
-                                                        <input aria-label="Name" className="input border-radius-override" id="Name" name="Name" placeholder="Name" type="text" onChange={handleChange} />
+                                                        <input aria-label="Name" className="input border-radius-override" id="Name" name="Name" placeholder="Name" type="text" onChange={handleChange} required />
                                                         <span className="icon is-small is-left">
                                                             <FontAwesomeIcon icon="user" />
                                                         </span>
@@ -59,7 +59,7 @@ export default function Contact() {
                                                 </div>
                                                 <div className="field">
                                                     <p className="control has-icons-left has-icons-right">
-                                                        <input asp-for="Email" aria-label="Email" className="input border-radius-override" id="Email" name="Email" placeholder="Email" type="text" onChange={handleChange} />
+                                                        <input asp-for="Email" aria-label="Email" className="input border-radius-override" id="Email" name="Email" placeholder="Email" type="text" onChange={handleChange} required />
                                                         <span className="icon is-small is-left">
                                                             <FontAwesomeIcon icon="envelope" />
                                                         </span>
@@ -71,7 +71,7 @@ export default function Contact() {
                                             <div className="field-body">
                                                 <div className="field">
                                                     <div className="control">
-                                                        <textarea aria-label="Message" className="textarea border-radius-override" rows={6} cols={20} id="Message" name="Message" placeholder="Message" defaultValue={""} onChange={handleChange} />
+                                                        <textarea aria-label="Message" className="textarea border-radius-override" rows={6} cols={20} id="Message" name="Message" placeholder="Message" defaultValue={""} onChange={handleChange} required />
                                                     </div>
                                                 </div>
                                             </div>

@@ -6,8 +6,7 @@ import SEO from "../components/seo"
 const Thanks = () => (
   <Layout>
     <SEO title="Thanks" />
-    <h1>Thanks</h1>
-    <p>You just sent an email.</p>
+    <p>You just sent me an email.</p>
   </Layout>
 )
 
