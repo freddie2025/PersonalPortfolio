@@ -16,7 +16,7 @@ library.add(fab, faHeart, faUser, faEnvelope)
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Fred James" />
     <div>
       <Nav />
       <About />

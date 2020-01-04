@@ -35,6 +35,7 @@ class Resume extends Component {
                                                     <li>Built and automated, via windows service and SSIS, a suite of ETLs underpinning Shipowner&#39;s core fiscal reporting.</li>
                                                     <li>Designed the UX for the claim management module of Tindall Riley&#39;s maritime underwriting system.</li>
                                                 </ul>
+                                                <br />
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">SQL Server</span>
                                                     <span className="tag bg-is-blue">Web API</span>
@@ -63,6 +64,7 @@ class Resume extends Component {
                                                     <li>Migrated data and query logic from several legacy applications into standalone instances of SQL Server. </li>
                                                     <li>In-between contracting I took the opportunity to modernise my skillset with the latest Microsoft web stack.</li>
                                                 </ul>
+                                                <br />
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">React</span>
                                                     <span className="tag bg-is-blue">Redux</span>
@@ -92,6 +94,7 @@ class Resume extends Component {
                                                     <li>Fulfilled the ETL requirement of quarterly reporting of vital financial statistics to central government ministers.</li>
                                                     <li>Reconciled $100m of discrepancies in TAFE's 14/15 accountants. Passing KPMG's internal audit and crucially returning TAFE to financial compliance.</li>
                                                 </ul>
+                                                <br />
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">SQL Server</span>
                                                     <span className="tag bg-is-blue">Power BI</span>
@@ -122,6 +125,7 @@ class Resume extends Component {
                                                     <li>Assisted the configuration and deployment of our software on the customer's infrastructure.</li>
                                                     <li>Managed the escalation of level 3 support tickets with the UK based development teams.</li>
                                                 </ul>
+                                                <br />
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">SQL Server</span>
                                                     <span className="tag bg-is-blue">Oracle 12c</span>
@@ -149,6 +153,7 @@ class Resume extends Component {
                                                     <li>Working with the legacy team, I got good exposure to the product lifecycle and the business of education.</li>
                                                     <li>Learnt the latest development methodologies including: TDD, Scrum/Agile, SOLID and clean code.</li>
                                                 </ul>
+                                                <br />
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">C#</span>
                                                     <span className="tag bg-is-blue">WPF</span>
@@ -167,7 +172,7 @@ class Resume extends Component {
                                             <div className="content">
                                                 <div className="columns">
                                                     <div className="column">
-                                                    <h3 className="title margin-bottom-override"><span className="shadow-is-turquoise">IT Apprenticeship</span></h3>
+                                                    <h3 className="title margin-bottom-override"><span className="shadow-is-turquoise">IT Developer</span></h3>
                                                         <p> Jaeger Ltd, King's Lynn United Kingdom</p>
                                                     </div>
                                                     <div className="column is-hidden-mobile">
@@ -179,6 +184,7 @@ class Resume extends Component {
                                                     <li>As an apprentice, I got to experience multiple job roles including: Support Desk, Admin and Development.</li>
                                                     <li>Developed a stock-taking system utilising mobile technology to overhaul the efficiency of the existing system.</li>
                                                 </ul>
+                                                <br />
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">VB.NET</span>
                                                     <span className="tag bg-is-blue">WinForms</span> 
@@ -241,8 +247,8 @@ class Resume extends Component {
                                                 <div className="columns is-centered">
                                                     <div className="column">
                                                         <h1 className="title is-size-4 is-spaced"><span className="shadow-is-purple">Web Design</span></h1>
-                                                        <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-purple">Things I enjoy designing</span></p>
+                                                    {/* <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-purple">Things I enjoy designing</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">UX</span>
                                                             <span className="tag bg-is-blue">UI</span>
@@ -263,8 +269,8 @@ class Resume extends Component {
                                                     </div>
                                                     <div className="column">
                                                         <h1 className="title is-size-4 is-spaced"><span className="shadow-is-turquoise">Development</span></h1>
-                                                        <p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Development Principles</span></p>
+                                                    {/* <p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Development Principles</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">OOP</span>
                                                             <span className="tag bg-is-blue">Secure</span>
@@ -284,8 +290,8 @@ class Resume extends Component {
                                                     </div>
                                                     <div className="column">
                                                         <h1 className="title is-size-4 is-spaced"><span className="shadow-is-red">Data Analysis</span></h1>
-                                                        <p>I genuinely care about the end user, and love helping them make sense of their data.</p>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-red">What I can do with your data</span></p>
+                                                    {/* <p>I genuinely care about the end user, and love helping them make sense of their data.</p>
+                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-red">What I can do with your data</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">ETL</span>
                                                             <span className="tag bg-is-blue">Dashboarding</span>

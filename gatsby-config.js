@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Personal Portfolio`,
-    description: `Personal landing page, powered with: React, Bulma and Gatsby.`,
-    author: `Fred James @freddie2025`,
+    titleTemplate: "Personal Portfolio",
+    description: `Personal Portfolio, powered with React, Bulma and Gatsby. Hosted on Netlify.`,
+    author: `Fred James`,
+    url: "https://fredjames.co.uk", // No trailing slash allowed!
+    image: "../images/thumbnail.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@freddie2025"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
