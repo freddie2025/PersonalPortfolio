@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { navigate } from 'gatsby-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/contact.css';
+import ReCAPTCHA from "react-google-recaptcha";
 
 function encode(data) {
     return Object.keys(data)
@@ -44,7 +45,7 @@ export default function Contact() {
                         <div className="container container-padding">
                             <div className="columns">
                                 <div className="column is-two-thirds">
-                                    <form name="contact" method="post" action="/thanks" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} data-netlify-recaptcha="true">
+                                    <form name="contact" method="post" action="/thanks" data-netlify="true" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} >
                                         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                                         <input type="hidden" name="form-name" value="contact" />
                                         <div className="field is-horizontal">
@@ -79,7 +80,7 @@ export default function Contact() {
                                         <div className="field is-horizontal">
                                             <div className="field-body">
                                                 <div className="field">
-                                                <div data-netlify-recaptcha="true"></div>
+                                                    <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
                                                     <div className="control">
                                                         <input type="submit" defaultValue="Send" name="submit" className="button is-primary border-radius-override" />
                                                     </div>
