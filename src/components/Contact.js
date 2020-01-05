@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { navigate } from 'gatsby-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../styles/contact.css'; 
+import Recaptcha from "react-google-recaptcha";
+
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
 
 function encode(data) {
     return Object.keys(data)
@@ -14,6 +17,10 @@ export default function Contact() {
   
     const handleChange = (e) => {
         setState({ ...state, [e.target.name]: e.target.value })
+    }
+
+    const handleRecaptcha = value => {
+        setState({ "g-recaptcha-response": value });
     }
   
     const handleSubmit = (e) => {
@@ -44,7 +51,7 @@ export default function Contact() {
                         <div className="container container-padding">
                             <div className="columns">
                                 <div className="column is-two-thirds">
-                                    <form name="contact" method="post" action="/thanks" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
+                                    <form name="contact" method="post" action="/thanks" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} data-netlify-recaptcha="true">
                                         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                                         <input type="hidden" name="form-name" value="contact" />
                                         <div className="field is-horizontal">
@@ -79,6 +86,10 @@ export default function Contact() {
                                         <div className="field is-horizontal">
                                             <div className="field-body">
                                                 <div className="field">
+                                                    <Recaptcha
+                                                        sitekey={RECAPTCHA_KEY}
+                                                        onChange={handleRecaptcha}
+                                                    />
                                                     <div className="control">
                                                         <input type="submit" defaultValue="Send" name="submit" className="button is-primary border-radius-override" />
                                                     </div>
