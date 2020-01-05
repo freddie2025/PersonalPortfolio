@@ -149,9 +149,9 @@ class Resume extends Component {
                                                     </div>
                                                 </div>
                                                 <ul>
-                                                    <li>Worked on my first greenfield project. Bringing a Silverlight based social care application to market.</li>
-                                                    <li>Working with the legacy team, I got good exposure to the product lifecycle and the business of education.</li>
-                                                    <li>Learnt the latest development methodologies including: TDD, Scrum/Agile, SOLID and clean code.</li>
+                                                    <li>Re-styled several legacy sites. Introducing Bootstrap front-end framework for a more responsive, mobile-friendly UX.</li>
+                                                    <li>Wrote clean, clear, efficient, well-tested and maintainable code.</li>
+                                                    <li>Worked on over 30 software projects across multiple agile development teams utilising the latest technologies.</li>
                                                 </ul>
                                                 <br />
                                                 <div className="tags are-medium">
@@ -180,8 +180,8 @@ class Resume extends Component {
                                                     </div>
                                                 </div>
                                                 <ul>
-                                                    <li>Responsible for implementing the software behind our pick, pack and deploy of the new e-commerce site.</li>
-                                                    <li>As an apprentice, I got to experience multiple job roles including: Support Desk, Admin and Development.</li>
+                                                    <li>Responsible for implementing the software behind our pick, pack and deploy of our new e-commerce site.</li>
+                                                    <li>Responsible for a suite of till-based ecommerce applications used by 200+ stores worldwide.</li>
                                                     <li>Developed a stock-taking system utilising mobile technology to overhaul the efficiency of the existing system.</li>
                                                 </ul>
                                                 <br />

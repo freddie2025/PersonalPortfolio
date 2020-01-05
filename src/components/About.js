@@ -18,12 +18,12 @@ class About extends Component {
                                 </div>
                                 <div className="column is-four-fifths-desktop">
                                     <content>
-                                        <h1 className="title">Hi! I'm Fred James, <span className="shadow-is-turquoise">Senior .NET Developer</span> currently based in <span className="shadow-is-purple">Bristol</span>.</h1>
-                                        <p>I take great pride in what I do. I deliver code with integrity. I believe programming is a craft that takes a lifetime to master. I look to the sages of our industry for guidance and try to learn from their ideas. Programming is a passion; I feel privileged to have found my career and not my 9-5.</p>
+                                        <h1 className="title">Hi! I'm Fred James, <span className="shadow-is-turquoise">Senior .NET Developer</span> currently based in <span className="shadow-is-purple">Bath</span>.</h1>
+                                        <p className="paragraph-spacing">A gifted and versatile IT Professional with over a decade of industry experience. Having recently returned from a career overseas, I’ve spent the past nine months working as a Senior Software Developer writing code and consulting for several customers in the maritime insurance sector.</p>
                                         <br />
-                                        <p>I've been working in development for over 12 years. In this time, I have worked in all facets of software delivery. I have a wealth of experience in multiple markets and regions across the globe. I specialise in all things Azure,  .NET and SQL Server.</p>
+                                        <p className="paragraph-spacing">During my career, I have worked in all facets of software delivery. I have a wealth of experience in multiple markets and regions across the globe. I specialise in all things <span className="shadow-is-blue">Azure</span>,  <span className="shadow-is-yellow">.NET</span> and <span className="shadow-is-red">SQL Server</span>.</p>
                                         <br />
-                                        <p>If you're looking for an experienced, passionate developer who craves the complex challenges of our industry, please get in touch.</p>
+                                        <p className="paragraph-spacing">If you're looking for an experienced, passionate developer who craves the complex challenges of our industry, please get in touch.</p>
                                         <div className="tags are-large skill-tags-section">
                                             <span className="tag is-medium bg-is-blue">Azure</span>
                                             <span className="tag is-medium bg-is-turquoise">SQL Server</span>
