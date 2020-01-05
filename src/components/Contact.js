@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { navigate } from 'gatsby-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../styles/contact.css'; 
-import Recaptcha from "react-google-recaptcha";
-
-const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
+import '../styles/contact.css';
 
 function encode(data) {
     return Object.keys(data)
@@ -19,10 +16,6 @@ export default function Contact() {
         setState({ ...state, [e.target.name]: e.target.value })
     }
 
-    const handleRecaptcha = value => {
-        setState({ "g-recaptcha-response": value });
-    }
-  
     const handleSubmit = (e) => {
         e.preventDefault()
         const form = e.target
@@ -86,10 +79,7 @@ export default function Contact() {
                                         <div className="field is-horizontal">
                                             <div className="field-body">
                                                 <div className="field">
-                                                    <Recaptcha
-                                                        sitekey={RECAPTCHA_KEY}
-                                                        onChange={handleRecaptcha}
-                                                    />
+                                                <div data-netlify-recaptcha="true"></div>
                                                     <div className="control">
                                                         <input type="submit" defaultValue="Send" name="submit" className="button is-primary border-radius-override" />
                                                     </div>
