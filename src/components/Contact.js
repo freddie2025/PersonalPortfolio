@@ -13,8 +13,14 @@ function encode(data) {
 export default function Contact() {
     const [state, setState] = React.useState({})
   
+    let captcha;
+
     const handleChange = (e) => {
         setState({ ...state, [e.target.name]: e.target.value })
+    }
+
+    const handleRecaptcha = (e) => {
+        setState({ "g-recaptcha-response": e.target.value });
     }
 
     const handleSubmit = (e) => {
@@ -80,7 +86,7 @@ export default function Contact() {
                                         <div className="field is-horizontal">
                                             <div className="field-body">
                                                 <div className="field">
-                                                    <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} />
+                                                    <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} onChange={handleRecaptcha} ref={e => (e)} />
                                                     <div className="control">
                                                         <input type="submit" defaultValue="Send" name="submit" className="button is-primary border-radius-override" />
                                                     </div>
@@ -89,7 +95,7 @@ export default function Contact() {
                                         </div>
                                     </form>
                                 </div>
-                                {/* Social -*/}
+                                {/* Social */}
                                 <div className="column is-one-third">
                                     <div className="content has-text-centered">
                                         <h1 className="title"><span className="shadow-is-red">Let's Get Social</span></h1>
