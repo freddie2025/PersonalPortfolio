@@ -17,15 +17,15 @@ library.add(fab, faHeart, faUser, faEnvelope)
 const IndexPage = () => (
   <Layout>
     <SEO title="Fred James" />
-    <div>
-      <Nav />
-      <About />
-      <Clients />
-      <Resume />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+      <div>
+        <Nav />
+        <About />
+        <Clients />
+        <Resume />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
   </Layout>
 )
 
