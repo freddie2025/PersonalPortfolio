@@ -91,7 +91,15 @@ export default function Contact() {
                                         <div className="field is-horizontal">
                                             <div className="field-body">
                                                 <div className="field">
-                                                    <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} onChange={onChange} ref={recaptchaRef} />
+                                                    <div className="control">
+                                                        <ReCAPTCHA sitekey={process.env.SITE_RECAPTCHA_KEY} onChange={onChange} ref={recaptchaRef} />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="field is-horizontal">
+                                            <div className="field-body">
+                                                <div className="field">
                                                     <div className="control">
                                                         <input type="submit" defaultValue="Send" name="submit" className="button is-primary border-radius-override" />
                                                     </div>
