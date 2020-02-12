@@ -32,21 +32,21 @@ class Resume extends Component {
                                                 </div>
                                                 <ul>
                                                     <li>Utilising SignalR and SendGrid I created a real-time messaging service managing all tasks of our application.</li>
-                                                    <li>Built and automated, via windows service and SSIS, a suite of ETLs underpinning Shipowner&#39;s core fiscal reporting.</li>
-                                                    <li>Designed the UX for the claim management module of Tindall Riley&#39;s maritime underwriting system.</li>
+                                                    <li>Built and automated, via Windows Service and SSIS, a suite of ETLs underpinning Shipowner&#39;s core fiscal reporting.</li>
+                                                    <li>Designed the underlying class structure for the Claim Management module of Tindall Riley&#39;s maritime underwriting system.</li>
                                                 </ul>
                                                 <br />
                                                 <div className="tags are-medium">
-                                                    <span className="tag bg-is-blue">SQL Server</span>
-                                                    <span className="tag bg-is-blue">Web API</span>
                                                     <span className="tag bg-is-blue">ASP.NET</span>
-                                                    <span className="tag bg-is-blue">N-Tier</span>
-                                                    <span className="tag bg-is-blue">ES6</span>
-                                                    <span className="tag bg-is-blue">AWS</span>
+                                                    <span className="tag bg-is-blue">Web API</span>
+                                                    <span className="tag bg-is-blue">SignalR</span>
+                                                    <span className="tag bg-is-blue">SQL Server</span>
+                                                    <span className="tag bg-is-blue">SSDT</span>
                                                     <span className="tag bg-is-blue">Azure</span>
-                                                    <span className="tag bg-is-blue">TDD</span>
-                                                    <span className="tag bg-is-blue">Dev Ops</span>
-                                                    <span className="tag bg-is-blue">Continuous Delivery</span>
+                                                    <span className="tag bg-is-blue">xUnit</span>
+                                                    <span className="tag bg-is-blue">Azure DevOps</span>
+                                                    <span className="tag bg-is-blue">CI/CD</span>
+                                                    <span className="tag bg-is-blue">Mentoring</span>
                                                 </div>
                                             </div>
                                             <hr />
@@ -62,20 +62,21 @@ class Resume extends Component {
                                                 </div>
                                                 <ul>
                                                     <li>Migrated data and query logic from several legacy applications into standalone instances of SQL Server. </li>
-                                                    <li>In-between contracting I took the opportunity to modernise my skillset with the latest Microsoft web stack.</li>
+                                                    <li>Ported a suite of desktop applications written in FoxPro over to C# and WPF.</li>
+                                                    <li>In-between contracting I took the opportunity to modernise my skillset with the latest Microsoft stack.</li>
                                                 </ul>
                                                 <br />
                                                 <div className="tags are-medium">
+                                                    <span className="tag bg-is-blue">C# 8.0</span>
+                                                    <span className="tag bg-is-blue">Azure</span>
+                                                    <span className="tag bg-is-blue">.NET Core</span>
+                                                    <span className="tag bg-is-blue">ASP.NET MVC</span>
+                                                    <span className="tag bg-is-blue">ASP.NET Core</span>
+                                                    <span className="tag bg-is-blue">Web API</span>
+                                                    <span className="tag bg-is-blue">EF 6</span>
+                                                    <span className="tag bg-is-blue">EF Core</span>
                                                     <span className="tag bg-is-blue">React</span>
                                                     <span className="tag bg-is-blue">Redux</span>
-                                                    <span className="tag bg-is-blue">ES6</span>
-                                                    <span className="tag bg-is-blue">Bulma</span>
-                                                    <span className="tag bg-is-blue">Sass</span>
-                                                    <span className="tag bg-is-blue">Azure</span>
-                                                    <span className="tag bg-is-blue">Entity Framework</span>
-                                                    <span className="tag bg-is-blue">Web API</span>
-                                                    <span className="tag bg-is-blue">REST</span>
-                                                    <span className="tag bg-is-blue">ASP.NET MVC</span>
                                                 </div>
                                             </div>
                                             <hr />
@@ -105,6 +106,7 @@ class Resume extends Component {
                                                     <span className="tag bg-is-blue">DAX</span>
                                                     <span className="tag bg-is-blue">ETL</span>
                                                     <span className="tag bg-is-blue">Oracle 12c</span>
+                                                    <span className="tag bg-is-blue">Git</span>
                                                     <span className="tag bg-is-blue">Customer Facing</span>
                                                 </div>
                                             </div>
@@ -158,11 +160,12 @@ class Resume extends Component {
                                                     <span className="tag bg-is-blue">C#</span>
                                                     <span className="tag bg-is-blue">WPF</span>
                                                     <span className="tag bg-is-blue">WCF</span>
+                                                    <span className="tag bg-is-blue">MVVM</span>
+                                                    <span className="tag bg-is-blue">Silverlight</span>
+                                                    <span className="tag bg-is-blue">ASP.NET</span>  
                                                     <span className="tag bg-is-blue">LINQ</span>
                                                     <span className="tag bg-is-blue">Agile</span>
-                                                    <span className="tag bg-is-blue">Silverlight</span>
-                                                    <span className="tag bg-is-blue">ASP.NET</span>
-                                                    <span className="tag bg-is-blue">JavaScript</span>
+                                                    <span className="tag bg-is-blue">Scrum</span>
                                                     <span className="tag bg-is-blue">SQL Server</span>
                                                     <span className="tag bg-is-blue">jQuery</span>
                                                     <span className="tag bg-is-blue">Bootstrap</span>
@@ -180,8 +183,8 @@ class Resume extends Component {
                                                     </div>
                                                 </div>
                                                 <ul>
-                                                    <li>Responsible for implementing the software behind our pick, pack and deploy of our new e-commerce site.</li>
-                                                    <li>Responsible for a suite of till-based ecommerce applications used by 200+ stores worldwide.</li>
+                                                    <li>Responsible for implementing the software behind our pick, pack and deploy of Jaeger's new e-commerce site.</li>
+                                                    <li>Responsible for a suite of till-based e-commerce applications used by 200+ stores worldwide.</li>
                                                     <li>Developed a stock-taking system utilising mobile technology to overhaul the efficiency of the existing system.</li>
                                                 </ul>
                                                 <br />
@@ -192,6 +195,7 @@ class Resume extends Component {
                                                     <span className="tag bg-is-blue">ASP.NET</span>
                                                     <span className="tag bg-is-blue">Layered Architecture</span>
                                                     <span className="tag bg-is-blue">SQL Server</span> 
+                                                    <span className="tag bg-is-blue">JavaScript</span>
                                                     <span className="tag bg-is-blue">HTML</span>
                                                     <span className="tag bg-is-blue">CSS</span>
                                                     <span className="tag bg-is-blue">TFS</span>
@@ -257,14 +261,14 @@ class Resume extends Component {
                                                             <span className="tag bg-is-blue">Apps</span>
                                                             <span className="tag bg-is-blue">Logos</span>
                                                         </div>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-purple">Design Tools</span></p>
+                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-purple">Design Skills</span></p>
                                                         <ul className="list-style-override">
                                                             <li>JavaScript</li>
                                                             <li>Blazor</li>
                                                             <li>React/Redux</li>
                                                             <li>HTML/CSS</li>
                                                             <li>Bootstrap/Bulma</li>
-                                                            <li>Photoshop/Illustarator</li>
+                                                            <li>Photoshop/Illustrator</li>
                                                         </ul>
                                                     </div>
                                                     <div className="column">
@@ -273,19 +277,20 @@ class Resume extends Component {
                                                         <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Development Principles</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">OOP</span>
-                                                            <span className="tag bg-is-blue">Secure</span>
+                                                            <span className="tag bg-is-blue">Scrum</span>
                                                             <span className="tag bg-is-blue">TDD</span>
                                                             <span className="tag bg-is-blue">Agile</span>
                                                             <span className="tag bg-is-blue">SOLID</span>
+                                                            <span className="tag bg-is-blue">CI/CD</span>
                                                         </div>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Dev Tools</span></p>
+                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Coding Tools</span></p>
                                                         <ul className="list-style-override">
                                                             <li>C#</li>
                                                             <li>ASP.NET MVC</li>
                                                             <li>Web API</li>
+                                                            <li>SignalR</li>
                                                             <li>Azure</li>
-                                                            <li>N-Tier</li>
-                                                            <li>Git/GitHub</li>
+                                                            <li>Azure DevOps</li>
                                                         </ul>
                                                     </div>
                                                     <div className="column">

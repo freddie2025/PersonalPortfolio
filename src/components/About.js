@@ -21,22 +21,22 @@ class About extends Component {
                                         <h1 className="title">Hi! I'm Fred James, <span className="shadow-is-turquoise">Senior .NET Developer</span> currently based in <span className="shadow-is-purple">Bath</span>.</h1>
                                         <p className="paragraph-spacing">A gifted and versatile IT Professional with over a decade of industry experience. Having recently returned from a career overseas, I’ve spent the past nine months working as a Senior Software Developer writing code and consulting for several customers in the maritime insurance sector.</p>
                                         <br />
-                                        <p className="paragraph-spacing">During my career, I have worked in all facets of software delivery. I have a wealth of experience in multiple markets and regions across the globe. I specialise in all things <span className="shadow-is-blue">Azure</span>,  <span className="shadow-is-yellow">.NET</span> and <span className="shadow-is-red">SQL Server</span>.</p>
+                                        <p className="paragraph-spacing">During my career, I have worked in all facets of software delivery. I have a wealth of experience in multiple markets and regions across the globe. I specialise in all things <span className="shadow-is-blue has-text-weight-semibold">.NET Core and SQL Server</span>.</p>
                                         <br />
                                         <p className="paragraph-spacing">If you're looking for an experienced, passionate developer who craves the complex challenges of our industry, please get in touch.</p>
                                         <div className="tags are-large skill-tags-section">
+                                            <span className="tag is-medium bg-is-purple">C#</span>
+                                            <span className="tag is-medium bg-is-blue">ASP.NET Core</span>
+                                            <span className="tag is-medium bg-is-red">SQL Server</span> 
+                                            <span className="tag is-medium">EF Core</span>
                                             <span className="tag is-medium bg-is-blue">Azure</span>
-                                            <span className="tag is-medium bg-is-turquoise">SQL Server</span>
-                                            <span className="tag is-medium bg-is-yellow">C#</span>
-                                            <span className="tag is-medium bg-is-red">.NET</span>
                                             <span className="tag is-medium bg-is-blue">React</span>
                                             <span className="tag is-medium bg-is-purple">Redux</span>
-                                            <span className="tag is-medium">Clean Code</span>
-                                            <span className="tag is-medium bg-is-turquoise">S.O.L.I.D</span>
-                                            <span className="tag is-medium bg-is-red">TDD</span>
-                                            <span className="tag is-medium">Entity Framework</span>
-                                            <span className="tag is-medium bg-is-purple">Agile</span>
-                                            <span className="tag is-medium bg-is-blue">Scrum</span>
+                                            <span className="tag is-medium bg-is-yellow">Clean Code</span>
+                                            <span className="tag is-medium bg-is-turquoise">SOLID</span>
+                                            <span className="tag is-medium">TDD</span>
+                                            <span className="tag is-medium bg-is-yellow">Agile</span>
+                                            <span className="tag is-medium bg-is-turquoise">Scrum</span>
                                         </div>
                                         {/* Scroll */}
                                         <a href="#anchor-clients" address="true">
