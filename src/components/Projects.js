@@ -6,7 +6,7 @@ import exercism from '../images/exercism.png';
 import docker from '../images/docker.png';
 import weeklyChallenge from '../images/weeklychallenge.png';
 import pepsi from '../images/pepsi.png';
-import timCorey from '../images/timCorey.png';
+import timCorey from '../images/timcorey.png';
 
 class Projects extends Component { 
     render() {
