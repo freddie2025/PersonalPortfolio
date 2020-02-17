@@ -41,7 +41,7 @@ class Resume extends Component {
                                                     <span className="tag bg-is-blue">Web API</span>
                                                     <span className="tag bg-is-blue">SignalR</span>
                                                     <span className="tag bg-is-blue">SQL Server</span>
-                                                    <span className="tag bg-is-blue">SSDT</span>
+                                                    <span className="tag bg-is-blue">ADO.NET</span>
                                                     <span className="tag bg-is-blue">Azure</span>
                                                     <span className="tag bg-is-blue">xUnit</span>
                                                     <span className="tag bg-is-blue">Azure DevOps</span>

@@ -5,6 +5,8 @@ import freeCodeCampLogo from '../images/freecodecamp.png';
 import exercism from '../images/exercism.png';
 import docker from '../images/docker.png';
 import weeklyChallenge from '../images/weeklychallenge.png';
+import pepsi from '../images/pepsi.png';
+import timCorey from '../images/timCorey.png';
 
 class Projects extends Component { 
     render() {
@@ -65,28 +67,25 @@ class Projects extends Component {
                                             </div>
                                             <div className="card-content">
                                             <div className="content">
-                                                <p className="subtitle"><span className="shadow-is-red">FredCo Retail Manager</span></p>
+                                                <p className="subtitle"><span className="shadow-is-purple">Tournament Tracker</span></p>
                                                     <div className="tags are-small">
-                                                        <span className="tag">C#</span>
-                                                        <span className="tag">.NET Core</span>
-                                                        <span className="tag">WPF</span>
-                                                        <span className="tag">MVVM</span>
+                                                    <span className="tag">C#</span>
+                                                        <span className="tag">.NET Framework 4.8</span>
+                                                        <span className="tag">Windows Form</span>
                                                         <span className="tag">SQL Server</span>
-                                                        <span className="tag">EF Core</span>
-                                                        <span className="tag">WebAPI</span>
-                                                        <span className="tag">Azure DevOps</span>
-                                                        <span className="tag">Azure</span>
-                                                        <span className="tag">IoC</span>
-                                                        <span className="tag">Authentication</span>
-                                                        <span className="tag">Logging</span>
-                                                        <span className="tag">Design Patterns</span>
-                                                        <span className="tag">SOLID</span>   
-                                                        
+                                                        <span className="tag">ORM</span>
+                                                        <span className="tag">Dapper</span>
+                                                        <span className="tag">OOP</span>
+                                                        <span className="tag">IO</span>
+                                                        <span className="tag">Email</span>
+                                                        <span className="tag">Git</span>
+                                                        <span className="tag">GitHub</span>
+                                                        <span className="tag">Project Planning</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <footer className="card-footer">
-                                                <a href="https://github.com/freddie2025/FredCoRetailManager" className="card-footer-item">Source Code</a>
+                                                <a href="https://github.com/freddie2025/TournamentTracker" className="card-footer-item">Source Code</a>
                                             </footer>
                                         </div>
                                     </div>
@@ -136,7 +135,7 @@ class Projects extends Component {
                                             </div>
                                             <div className="card-content">
                                                 <div className="content">
-                                                    <p className="subtitle"><span className="shadow-is-purple">Exercism.io</span></p>
+                                                    <p className="subtitle"><span className="shadow-is-blue">Exercism.io</span></p>
                                                     <div className="tags are-small">
                                                         <span className="tag">Parallelism</span>
                                                         <span className="tag">Bitwise</span>
@@ -169,7 +168,7 @@ class Projects extends Component {
                                             </div>
                                             <div className="card-content">
                                                 <div className="content">
-                                                    <p className="subtitle"><span className="shadow-is-yellow">eShop on Containers</span></p>
+                                                    <p className="subtitle"><span className="shadow-is-red">eShop on Containers</span></p>
                                                     <div className="tags are-small">
                                                         <span className="tag">Cosmos DB</span>
                                                         <span className="tag">Service Bus</span>
@@ -188,7 +187,6 @@ class Projects extends Component {
                                             </div>
                                             <footer className="card-footer">
                                                 <a className="card-footer-item">Coming Soon</a>
-                                                <a href="https://github.com/freddie2025/eShopOnContainers" className="card-footer-item">Source Code</a>
                                             </footer>
                                         </div>
                                     </div>
@@ -201,7 +199,7 @@ class Projects extends Component {
                                             </div>
                                             <div className="card-content">
                                                 <div className="content">
-                                                    <p className="subtitle"><span className="shadow-is-blue">Weekly Challenge</span></p>
+                                                    <p className="subtitle"><span className="shadow-is-yellow">Weekly Challenge</span></p>
                                                     <div className="tags are-small">
                                                         <span className="tag">C#</span>
                                                         <span className="tag">.NET Core</span>
@@ -224,6 +222,75 @@ class Projects extends Component {
                                                 <a href="https://github.com/freddie2025/WeeklyChallenge" className="card-footer-item">Source Code</a>
                                             </footer>
                                         </div>
+                                    </div>
+                                </div>
+                                <div className="columns">
+                                    <div className="column">
+                                        <div className="card">
+                                            <div className="card-image">
+                                                <figure className="image">
+                                                    <img src={pepsi} alt="Pepsi Logo" />
+                                                </figure>
+                                            </div>
+                                            <div className="card-content">
+                                                <div className="content">
+                                                    <p className="subtitle"><span className="shadow-is-blue">Soda Machine</span></p>
+                                                    <div className="tags are-small">
+                                                        <span className="tag">C#</span>
+                                                        <span className="tag">.NET Core</span>
+                                                        <span className="tag">Console Application</span>
+                                                        <span className="tag">Azure DevOps</span>
+                                                        <span className="tag">IoC</span>
+                                                        <span className="tag">Dependeny Injection</span>
+                                                        <span className="tag">IO</span>
+                                                        <span className="tag">Dry</span>
+                                                        <span className="tag">Design Patterns</span>
+                                                        <span className="tag">SOLID</span>   
+                                                        <span className="tag">Unit-Testing</span>   
+                                                        <span className="tag">TDD</span> 
+                                                        <span className="tag">xUnit</span>   
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <footer className="card-footer">
+                                                <a href="https://github.com/freddie2025/SodaMachine" className="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div className="column">
+                                        <div className="card">
+                                            <div className="card-image">
+                                                <figure className="image">
+                                                    <img src={timCorey} alt="Tim Corey" />
+                                                </figure>
+                                            </div>
+                                            <div className="card-content">
+                                                <div className="content">
+                                                    <p className="subtitle"><span className="shadow-is-blue">Fred Co Retail Manager</span></p>
+                                                    <div className="tags are-small">
+                                                        <span className="tag">C#</span>
+                                                        <span className="tag">.NET Core</span>
+                                                        <span className="tag">WPF</span>
+                                                        <span className="tag">MVVM</span>
+                                                        <span className="tag">SQL Server</span>
+                                                        <span className="tag">EF Core</span>
+                                                        <span className="tag">WebAPI</span>
+                                                        <span className="tag">Azure DevOps</span>
+                                                        <span className="tag">Azure</span>
+                                                        <span className="tag">IoC</span>
+                                                        <span className="tag">Authentication</span>
+                                                        <span className="tag">Logging</span>
+                                                        <span className="tag">Design Patterns</span>
+                                                        <span className="tag">SOLID</span>   
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <footer className="card-footer">
+                                                <a href="https://github.com/freddie2025/FredCoRetailManager" className="card-footer-item">Source Code</a>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div className="column">
                                     </div>
                                 </div>
                             </div>
