@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import pdf from '../documents/Frederick-James-Curriculum-Vitae.pdf';
 import '../styles/resume.css'; 
+import pluralsightmvc5 from '../images/pluralsightmvc5.png';
+import pluralsightcsharp from '../images/pluralsightcsharp.png';
+import pluralsighttsql from '../images/pluralsighttsql.png';
 
 class Resume extends Component { 
     render() {
@@ -312,6 +315,35 @@ class Resume extends Component {
                                                             <li>SQL Server Data Tools</li>
                                                             <li>Entity Framework</li>
                                                         </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div id="assessments" className="container container-padding">
+                                    <div className="columns is-desktop">
+                                        <div className="column is-one-fifths-desktop">
+                                            <h1 className="title"><span className="shadow-is-blue">Assessments</span></h1>
+                                        </div>
+                                        <div className="column is-four-fifths-desktop">
+                                            <div className="content">
+                                                <div className="columns is-centered">
+                                                    <div className="column">
+                                                        <a class="brightness" href="https://app.pluralsight.com/profile/freddie2025">
+                                                            <img src={pluralsightcsharp} alt="Pluralsight C Sharp" />
+                                                        </a>
+                                                    </div>
+                                                    <div className="column">
+                                                        <a class="brightness" href="https://app.pluralsight.com/profile/freddie2025">
+                                                            <img src={pluralsightmvc5} alt="Pluralsight Mvc 5" />
+                                                        </a>
+                                                    </div>
+                                                    <div className="column">
+                                                        <a class="brightness" href="https://app.pluralsight.com/profile/freddie2025">
+                                                            <img src={pluralsighttsql} alt="Pluralsight T Sql" />
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>

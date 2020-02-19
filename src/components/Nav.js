@@ -58,6 +58,7 @@ class Nav extends Component {
                             <a className="navbar-item" href="#experience">Work Experience</a>
                             {/*<a className="navbar-item" href="#education">Eductaion</a>*/}
                             <a className="navbar-item" href="#skills">Skills</a>
+                            <a className="navbar-item" href="#assessments">Assessments</a>
                             <a className="navbar-item" href="#references">References</a>
                             <hr className="navbar-divider" />
                             <a className="navbar-item" href={pdf}>Download</a>
