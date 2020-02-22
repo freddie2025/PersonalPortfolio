@@ -280,18 +280,18 @@ class Resume extends Component {
                                                         <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Development Principles</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">OOP</span>
-                                                            <span className="tag bg-is-blue">Scrum</span>
-                                                            <span className="tag bg-is-blue">TDD</span>
-                                                            <span className="tag bg-is-blue">Agile</span>
                                                             <span className="tag bg-is-blue">SOLID</span>
+                                                            <span className="tag bg-is-blue">TDD</span>
                                                             <span className="tag bg-is-blue">CI/CD</span>
+                                                            <span className="tag bg-is-blue">Agile</span>
+                                                            <span className="tag bg-is-blue">Scrum</span>
                                                         </div>
                                                         <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Coding Tools</span></p>
                                                         <ul className="list-style-override">
                                                             <li>C#</li>
                                                             <li>ASP.NET MVC</li>
                                                             <li>Web API</li>
-                                                            <li>SignalR</li>
+                                                            <li>Entity Framework</li>
                                                             <li>Azure</li>
                                                             <li>Azure DevOps</li>
                                                         </ul>
@@ -312,8 +312,8 @@ class Resume extends Component {
                                                             <li>Oracle</li>
                                                             <li>PowerShell</li>
                                                             <li>Power BI</li>
+                                                            <li>DAX</li>
                                                             <li>SQL Server Data Tools</li>
-                                                            <li>Entity Framework</li>
                                                         </ul>
                                                     </div>
                                                 </div>

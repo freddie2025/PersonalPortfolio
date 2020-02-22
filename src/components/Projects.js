@@ -7,6 +7,7 @@ import docker from '../images/docker.png';
 import weeklyChallenge from '../images/weeklychallenge.png';
 import pepsi from '../images/pepsi.png';
 import timCorey from '../images/timcorey.png';
+import powerbi from '../images/powerbi.png';
 
 class Projects extends Component { 
     render() {
@@ -243,7 +244,7 @@ class Projects extends Component {
                                                         <span className="tag">IoC</span>
                                                         <span className="tag">Dependeny Injection</span>
                                                         <span className="tag">IO</span>
-                                                        <span className="tag">Dry</span>
+                                                        <span className="tag">DRY</span>
                                                         <span className="tag">Design Patterns</span>
                                                         <span className="tag">SOLID</span>   
                                                         <span className="tag">Unit-Testing</span>   
@@ -291,6 +292,40 @@ class Projects extends Component {
                                         </div>
                                     </div>
                                     <div className="column">
+
+                                    <div className="card">
+                                            <div className="card-image">
+                                                <figure className="image">
+                                                    <img src={powerbi} alt="Power BI" />
+                                                </figure>
+                                            </div>
+                                            <div className="card-content">
+                                                <div className="content">
+                                                    <p className="subtitle"><span className="shadow-is-yellow">World Wide Importers Sales Dashboard</span></p>
+                                                    <div className="tags are-small">
+                                                        <span className="tag">PowerBI</span> 
+                                                        <span className="tag">SQL Server</span>
+                                                        <span className="tag">SSAS</span>
+                                                        <span className="tag">SSRS</span>
+                                                        <span className="tag">SSIS</span> 
+                                                        <span className="tag">DAX</span>
+                                                        <span className="tag">Data Warehouse</span>
+                                                        <span className="tag">T-SQL</span>
+                                                        <span className="tag">ETL</span>
+                                                        <span className="tag">OLAP</span>
+                                                        <span className="tag">Tabular</span>
+                                                        <span className="tag">Data Modeling</span>
+                                                        <span className="tag">KPIs</span>
+                                                        <span className="tag">Multi-Dimensional Models</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <footer className="card-footer">
+                                                <a className="card-footer-item">Coming Soon</a>
+                                            </footer>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
