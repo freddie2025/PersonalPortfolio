@@ -26,11 +26,37 @@ class Resume extends Component {
                                             <div className="content">
                                                 <div className="columns">
                                                     <div className="column">
-                                                        <h3 className="title margin-bottom-override"><span className="shadow-is-turquoise">Senior Software Developer</span></h3>
+                                                        <h3 className="title margin-bottom-override"><span className="shadow-is-turquoise">Senior Application Developer</span></h3>
+                                                        <p>Lloyds Banking Group, Bristol United Kingdom</p>
+                                                    </div>
+                                                    <div className="column is-hidden-mobile">
+                                                        <p className="margin-bottom-override right-readable-text"><span className="shadow-is-turquoise">Mar 2020 - Current</span></p>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                </ul>
+                                                <br />
+                                                <div className="tags are-medium">
+                                                    <span className="tag bg-is-blue">C#</span>
+                                                    <span className="tag bg-is-blue">ASP.NET MVC</span>
+                                                    <span className="tag bg-is-blue">SQL Server</span>
+                                                    <span className="tag bg-is-blue">ETL</span>
+                                                    <span className="tag bg-is-blue">SSIS</span>
+                                                    <span className="tag bg-is-blue">SSRS</span>
+                                                    <span className="tag bg-is-blue">Consultanting</span>
+                                                    <span className="tag bg-is-blue">Project Management</span>
+                                                    <span className="tag bg-is-blue">Commercial Banking</span>
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div className="content">
+                                                <div className="columns">
+                                                    <div className="column">
+                                                        <h3 className="title margin-bottom-override"><span className="shadow-is-blue">Senior Software Developer</span></h3>
                                                         <p>Spark! Data Systems, Bristol United Kingdom</p>
                                                     </div>
                                                     <div className="column is-hidden-mobile">
-                                                        <p className="margin-bottom-override right-readable-text"><span className="shadow-is-turquoise">May 2019 - Current</span></p>
+                                                        <p className="margin-bottom-override right-readable-text"><span className="shadow-is-blue">May 2019 - Feb 2020</span></p>
                                                     </div>
                                                 </div>
                                                 <ul>
@@ -44,9 +70,8 @@ class Resume extends Component {
                                                     <span className="tag bg-is-blue">Web API</span>
                                                     <span className="tag bg-is-blue">SignalR</span>
                                                     <span className="tag bg-is-blue">SQL Server</span>
-                                                    <span className="tag bg-is-blue">ADO.NET</span>
                                                     <span className="tag bg-is-blue">Azure</span>
-                                                    <span className="tag bg-is-blue">xUnit</span>
+                                                    <span className="tag bg-is-blue">Unit Testing</span>
                                                     <span className="tag bg-is-blue">Azure DevOps</span>
                                                     <span className="tag bg-is-blue">CI/CD</span>
                                                     <span className="tag bg-is-blue">Mentoring</span>

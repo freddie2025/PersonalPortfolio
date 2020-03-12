@@ -301,7 +301,7 @@ class Projects extends Component {
                                             </div>
                                             <div className="card-content">
                                                 <div className="content">
-                                                    <p className="subtitle"><span className="shadow-is-yellow">World Wide Importers Sales Dashboard</span></p>
+                                                    <p className="subtitle"><span className="shadow-is-yellow">World Wide Importers</span></p>
                                                     <div className="tags are-small">
                                                         <span className="tag">PowerBI</span> 
                                                         <span className="tag">SQL Server</span>

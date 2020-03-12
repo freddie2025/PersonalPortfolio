@@ -64,6 +64,7 @@ class Nav extends Component {
                             <a className="navbar-item" href={pdf}>Download</a>
                         </div>
                     </div>
+                        <a className="navbar-item" href="https://medium.com/@freddie2025">Blog</a>
                         <a className="navbar-item" href="#anchor-projects">Projects</a>
                         <a className="navbar-item" href="#anchor-contact">Contact</a>
                     </div>
