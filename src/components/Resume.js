@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import pdf from '../documents/Frederick-James-Curriculum-Vitae.pdf';
 import '../styles/resume.css'; 
-import pluralsightmvc5 from '../images/pluralsightmvc5.png';
-import pluralsightcsharp from '../images/pluralsightcsharp.png';
-import pluralsighttsql from '../images/pluralsighttsql.png';
 
 class Resume extends Component { 
     render() {
@@ -33,9 +30,11 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-turquoise">Mar 2020 - Current</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
-                                                </ul>
-                                                <br />
+                                                <article class="message is-primary">
+                                                    <div class="message-body is-size-5">
+                                                        Coming Soon
+                                                    </div>
+                                                </article>
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">C#</span>
                                                     <span className="tag bg-is-blue">ASP.NET MVC</span>
@@ -43,7 +42,7 @@ class Resume extends Component {
                                                     <span className="tag bg-is-blue">ETL</span>
                                                     <span className="tag bg-is-blue">SSIS</span>
                                                     <span className="tag bg-is-blue">SSRS</span>
-                                                    <span className="tag bg-is-blue">Consultanting</span>
+                                                    <span className="tag bg-is-blue">Consulting</span>
                                                     <span className="tag bg-is-blue">Project Management</span>
                                                     <span className="tag bg-is-blue">Commercial Banking</span>
                                                 </div>
@@ -59,7 +58,7 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-blue">May 2019 - Feb 2020</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ul className="list-style-override">
                                                     <li>Utilising SignalR and SendGrid I created a real-time messaging service managing all tasks of our application.</li>
                                                     <li>Built and automated, via Windows Service and SSIS, a suite of ETLs underpinning Shipowner&#39;s core fiscal reporting.</li>
                                                     <li>Designed the underlying class structure for the Claim Management module of Tindall Riley&#39;s maritime underwriting system.</li>
@@ -68,7 +67,9 @@ class Resume extends Component {
                                                 <div className="tags are-medium">
                                                     <span className="tag bg-is-blue">ASP.NET</span>
                                                     <span className="tag bg-is-blue">Web API</span>
-                                                    <span className="tag bg-is-blue">SignalR</span>
+                                                    <span className="tag bg-is-blue">ETL</span>
+                                                    <span className="tag bg-is-blue">SSIS</span>
+                                                    <span className="tag bg-is-blue">SSRS</span>
                                                     <span className="tag bg-is-blue">SQL Server</span>
                                                     <span className="tag bg-is-blue">Azure</span>
                                                     <span className="tag bg-is-blue">Unit Testing</span>
@@ -88,7 +89,7 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-red">Oct 2017 - May 2019</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ul className="list-style-override">
                                                     <li>Migrated data and query logic from several legacy applications into standalone instances of SQL Server. </li>
                                                     <li>Ported a suite of desktop applications written in FoxPro over to C# and WPF.</li>
                                                     <li>In-between contracting I took the opportunity to modernise my skillset with the latest Microsoft stack.</li>
@@ -118,7 +119,7 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-yellow">May 2015 - Oct 2017</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ul className="list-style-override">
                                                     <li>Migrated $500m worth of student loans across 11 institutes from the customers legacy system to our new infrastructure.</li>
                                                     <li>Fulfilled the ETL requirement of quarterly reporting of vital financial statistics to central government ministers.</li>
                                                     <li>Reconciled $100m of discrepancies in TAFE's 14/15 accountants. Passing KPMG's internal audit and crucially returning TAFE to financial compliance.</li>
@@ -149,7 +150,7 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-purple">Aug 2013 - May 2015</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ul className="list-style-override">
                                                     <li>Provided product training to the level 1-2 help desks.</li>
                                                     <li>Helped troubleshoot the integration of Tribal's messaging service to the customer's Tibco based middleware.</li>
                                                     <li>Assisted the configuration and deployment of our software on the customer's infrastructure.</li>
@@ -178,10 +179,10 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-blue">Sep 2010 - Aug 2013</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ul className="list-style-override">
                                                     <li>Re-styled several legacy sites. Introducing Bootstrap front-end framework for a more responsive, mobile-friendly UX.</li>
                                                     <li>Wrote clean, clear, efficient, well-tested and maintainable code.</li>
-                                                    <li>Worked on over 30 software projects across multiple agile development teams utilising the latest technologies.</li>
+                                                    <li>Worked on over 20 software projects across multiple agile development teams utilising the latest technologies.</li>
                                                 </ul>
                                                 <br />
                                                 <div className="tags are-medium">
@@ -210,7 +211,7 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-turquoise">Oct 2007 - Sep 2010</span></p>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ul className="list-style-override">
                                                     <li>Responsible for implementing the software behind our pick, pack and deploy of Jaeger's new e-commerce site.</li>
                                                     <li>Responsible for a suite of till-based e-commerce applications used by 200+ stores worldwide.</li>
                                                     <li>Developed a stock-taking system utilising mobile technology to overhaul the efficiency of the existing system.</li>
@@ -233,42 +234,6 @@ class Resume extends Component {
                                     </div>
                                 </div>
                                 <hr />
-                                {/*
-                                <div id="education" className="container container-padding">
-                                    <div className="columns is-desktop">
-                                        <div className="column is-one-fifths-desktop ">
-                                            <h1 className="title"><span className="shadow-is-yellow">Education</span></h1>
-                                        </div>
-                                        <div className="column is-four-fifths-desktop ">
-                                            <div className="content">
-                                                <div className="columns">
-                                                    <div className="column">
-                                                        <h3 className="title margin-bottom-override"><span className="shadow-is-yellow">A Levels</span></h3>
-                                                        <p>Dereham 6th Form College, Dereham United Kingdom</p>
-                                                    </div>
-                                                    <div className="column is-hidden-mobile">
-                                                        <p className="margin-bottom-override right-readable-text"><span className="shadow-is-yellow">Sep 2006 - Sep 2007</span></p>
-                                                    </div>
-                                                </div>
-                                                <p>Although I never finished my final year at Sixth Form, I thoroughly enjoyed the experience. If I had not been offered the placement at Jaeger I would have gone on to university to study Computer Science. Predicted grades below:</p>
-                                                <br />
-                                                <div className="columns">
-                                                    <div className="column">
-                                                        <span className="tag is-medium bg-is-blue">Graphic Design - A</span>
-                                                    </div>
-                                                    <div className="column">
-                                                        <span className="tag is-medium bg-is-turquoise">Business Studies - B</span>
-                                                    </div>
-                                                    <div className="column">
-                                                        <span className="tag is-medium bg-is-yellow">English Lanaguage - B</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr />
-                                */}
                                 <div id="skills" className="container container-padding">
                                     <div className="columns is-desktop">
                                         <div className="column is-one-fifths-desktop">
@@ -279,8 +244,6 @@ class Resume extends Component {
                                                 <div className="columns is-centered">
                                                     <div className="column">
                                                         <h1 className="title is-size-4 is-spaced"><span className="shadow-is-purple">Web Design</span></h1>
-                                                    {/* <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-purple">Things I enjoy designing</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">UX</span>
                                                             <span className="tag bg-is-blue">UI</span>
@@ -301,8 +264,6 @@ class Resume extends Component {
                                                     </div>
                                                     <div className="column">
                                                         <h1 className="title is-size-4 is-spaced"><span className="shadow-is-turquoise">Development</span></h1>
-                                                    {/* <p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-turquoise">Development Principles</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">OOP</span>
                                                             <span className="tag bg-is-blue">SOLID</span>
@@ -323,8 +284,6 @@ class Resume extends Component {
                                                     </div>
                                                     <div className="column">
                                                         <h1 className="title is-size-4 is-spaced"><span className="shadow-is-red">Data Analysis</span></h1>
-                                                    {/* <p>I genuinely care about the end user, and love helping them make sense of their data.</p>
-                                                        <p className="list-title has-text-weight-normal"><span className="shadow-is-red">What I can do with your data</span></p> */}
                                                         <div className="tags are-small">
                                                             <span className="tag bg-is-blue">ETL</span>
                                                             <span className="tag bg-is-blue">Dashboarding</span>
@@ -340,35 +299,6 @@ class Resume extends Component {
                                                             <li>DAX</li>
                                                             <li>SQL Server Data Tools</li>
                                                         </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr />
-                                <div id="assessments" className="container container-padding">
-                                    <div className="columns is-desktop">
-                                        <div className="column is-one-fifths-desktop">
-                                            <h1 className="title"><span className="shadow-is-blue">Assessments</span></h1>
-                                        </div>
-                                        <div className="column is-four-fifths-desktop">
-                                            <div className="content">
-                                                <div className="columns is-centered">
-                                                    <div className="column">
-                                                        <a class="brightness" href="https://app.pluralsight.com/profile/freddie2025">
-                                                            <img src={pluralsightcsharp} alt="Pluralsight C Sharp" />
-                                                        </a>
-                                                    </div>
-                                                    <div className="column">
-                                                        <a class="brightness" href="https://app.pluralsight.com/profile/freddie2025">
-                                                            <img src={pluralsightmvc5} alt="Pluralsight Mvc 5" />
-                                                        </a>
-                                                    </div>
-                                                    <div className="column">
-                                                        <a class="brightness" href="https://app.pluralsight.com/profile/freddie2025">
-                                                            <img src={pluralsighttsql} alt="Pluralsight T Sql" />
-                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>

@@ -13,7 +13,7 @@ class Error extends Component {
                             <a className="button" href="https://www.fredjames.co.uk/">Home</a>
                         </div>
                         <div className="column has-text-centered is-hidden-mobile">
-                            <img src={robot} />
+                            <img src={robot} alt="Robot" />
                         </div>
                     </div>
                 </div>

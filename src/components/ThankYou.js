@@ -13,7 +13,7 @@ class ThankYou extends Component {
                             <a className="button" href="https://www.fredjames.co.uk/">Home</a>
                         </div>
                         <div className="column has-text-centered is-hidden-mobile">
-                            <img src={mail} />
+                            <img src={mail} alt="Mail" />
                         </div>
                     </div>
                 </div>

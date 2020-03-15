@@ -11,6 +11,7 @@ import Resume from '../components/Resume'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faHeart, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Assesments from '../components/Assessments'
 
 library.add(fab, faHeart, faUser, faEnvelope)
 
@@ -22,6 +23,7 @@ const IndexPage = () => (
         <About />
         <Clients />
         <Resume />
+        <Assesments />
         <Projects />
         <Contact />
         <Footer />

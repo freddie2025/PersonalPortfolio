@@ -37,6 +37,7 @@ class Projects extends Component {
                                                     <p className="subtitle"><span className="shadow-is-blue">Curriculum Viate</span></p>
                                                     <div className="tags are-small">
                                                         <span className="tag">React</span>
+                                                        <span className="tag">React Hooks</span>
                                                         <span className="tag">Gatsby</span>
                                                         <span className="tag">GraphQL</span>
                                                         <span className="tag">Bulma</span>
@@ -187,7 +188,7 @@ class Projects extends Component {
                                                 </div>
                                             </div>
                                             <footer className="card-footer">
-                                                <a className="card-footer-item">Coming Soon</a>
+                                                <p className="card-footer-item">Coming Soon</p>
                                             </footer>
                                         </div>
                                     </div>
@@ -321,7 +322,7 @@ class Projects extends Component {
                                                 </div>
                                             </div>
                                             <footer className="card-footer">
-                                                <a className="card-footer-item">Coming Soon</a>
+                                                <p className="card-footer-item">Coming Soon</p>
                                             </footer>
                                         </div>
 

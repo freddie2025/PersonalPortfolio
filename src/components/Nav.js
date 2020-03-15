@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import pdf from '../documents/Frederick-James-Curriculum-Vitae.pdf';
 import '../styles/nav.css'; 
@@ -24,8 +24,8 @@ const Nav = () => {
                         setisActive(!isActive);
                     }}
                     role="button" 
-                    className={`navbar-burger burger ${isActive ? "is-active" : ""}`} a
-                    ria-label="menu" 
+                    className={`navbar-burger burger ${isActive ? "is-active" : ""}`} 
+                    aria-label="menu" 
                     href="#Nav" 
                     aria-expanded="false" 
                     data-target="navbarBasicExample">
@@ -40,7 +40,6 @@ const Nav = () => {
                     <a className="navbar-link" href="#Nav">Resume</a>
                     <div className="navbar-dropdown border-radius-override">
                         <a className="navbar-item" href="#experience">Work Experience</a>
-                        {/*<a className="navbar-item" href="#education">Eductaion</a>*/}
                         <a className="navbar-item" href="#skills">Skills</a>
                         <a className="navbar-item" href="#assessments">Assessments</a>
                         <a className="navbar-item" href="#references">References</a>
