@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import pluralsightmvc5 from '../images/pluralsightmvc5.png';
 import pluralsightcsharp from '../images/pluralsightcsharp.png';
 import pluralsighttsql from '../images/pluralsighttsql.png';
+import pluralsightjavascript from '../images/pluralsightjavascript.png';
 
 class Assesments extends Component { 
     render() {
@@ -33,6 +34,11 @@ class Assesments extends Component {
                                         <div className="column">
                                             <a className="brightness" href="https://app.pluralsight.com/profile/freddie2025">
                                                 <img src={pluralsighttsql} alt="Pluralsight T Sql" />
+                                            </a>
+                                        </div>
+                                        <div className="column">
+                                            <a className="brightness" href="https://app.pluralsight.com/profile/freddie2025">
+                                                <img src={pluralsightjavascript} alt="Pluralsight JavaScript" />
                                             </a>
                                         </div>
                                     </div>

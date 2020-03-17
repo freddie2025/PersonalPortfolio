@@ -30,8 +30,8 @@ class Resume extends Component {
                                                         <p className="margin-bottom-override right-readable-text"><span className="shadow-is-turquoise">Mar 2020 - Current</span></p>
                                                     </div>
                                                 </div>
-                                                <article class="message is-primary">
-                                                    <div class="message-body is-size-5">
+                                                <article className="message is-primary">
+                                                    <div className="message-body is-size-5">
                                                         Coming Soon
                                                     </div>
                                                 </article>
