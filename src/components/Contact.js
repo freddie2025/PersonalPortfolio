@@ -47,11 +47,13 @@ export default function Contact() {
         <div>
             <span id="anchor-contact" className="section-spacing-anchor" />
             <div id="contact" className="container">
-                <div className="tile is-ancestor tile-margin-override">
+                <div className="tile is-12 is-ancestor tile-margin-override">
                     <div className="tile is-child box border-radius-override">
+                        {/* Title */}
                         <div className="content has-text-centered">
-                            <h1 className="title"><span className="shadow-is-yellow">Contact</span></h1>
+                            <h1 className="title"><span className="shadow-is-red">Contact</span></h1>
                         </div>
+                        {/* Contact */}
                         <hr />
                         <div className="container container-padding">
                             <div className="columns">
@@ -111,7 +113,7 @@ export default function Contact() {
                                 {/* Social */}
                                 <div className="column is-one-third">
                                     <div className="content has-text-centered">
-                                        <h1 className="title"><span className="shadow-is-red">Let's Get Social</span></h1>
+                                        <h1 className="title"><span className="shadow-is-blue">Let's Get Social</span></h1>
                                         <div className="buttons social is-centered">
                                             <a href="https://twitter.com/freddie2025" className="button is-outlined social-button-twitter border-radius-override">
                                                 <span><FontAwesomeIcon icon={['fab', 'twitter']} />&nbsp; Twitter</span>

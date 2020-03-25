@@ -8,7 +8,7 @@ class Resume extends Component {
             <div>
                 <span id="anchor-resume" className="section-spacing-anchor" />
                     <div id="resume" className="container">
-                        <div className="tile is-ancestor tile-margin-override">
+                        <div className="tile is-12 is-ancestor tile-margin-override">
                             <div className="tile is-child box border-radius-override">
                                 <div className="content has-text-centered">
                                     <h1 className="title"><span className="shadow-is-turquoise">Resume</span></h1>

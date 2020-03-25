@@ -20,6 +20,10 @@ body {
   margin: 0px 10px 0px 10px !important;
 }
 
+.tile-padding-override {
+  padding: 20px 0px 20px 0px !important;
+}
+
 .section-spacing-anchor {
   display: block;
   height: 100px;

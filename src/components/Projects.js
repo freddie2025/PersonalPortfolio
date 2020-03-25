@@ -15,7 +15,7 @@ class Projects extends Component {
             <div>
                 <span id="anchor-projects" className="section-spacing-anchor" />
                 <div id="projects" className="container">
-                    <div className="tile is-ancestor tile-margin-override">
+                    <div className="tile is-12 is-ancestor tile-margin-override">
                         <div className="tile is-child box border-radius-override">
                             {/* Title */}
                             <div className="content has-text-centered">
@@ -50,7 +50,7 @@ class Projects extends Component {
                                                         <span className="tag">Serverless</span>
                                                         <span className="tag">reCaptcha v3</span>
                                                         <span className="tag">Git</span>
-                                                        <span className="tag">Continuous Delivery</span>
+                                                        <span className="tag">CI/CD</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -78,7 +78,9 @@ class Projects extends Component {
                                                         <span className="tag">ORM</span>
                                                         <span className="tag">Dapper</span>
                                                         <span className="tag">OOP</span>
+                                                        <span className="tag">SOLID</span>
                                                         <span className="tag">IO</span>
+                                                        <span className="tag">Text Files</span>
                                                         <span className="tag">Email</span>
                                                         <span className="tag">Git</span>
                                                         <span className="tag">GitHub</span>
@@ -116,6 +118,7 @@ class Projects extends Component {
                                                         <span className="tag">Express</span>
                                                         <span className="tag">Ajax</span>
                                                         <span className="tag">MongoDB</span>
+                                                        <span className="tag">Mongoose</span>
                                                         <span className="tag">JSON</span>
                                                     </div>
                                                 </div>
@@ -149,7 +152,6 @@ class Projects extends Component {
                                                         <span className="tag">Concurrency</span>
                                                         <span className="tag">Cryptography</span>
                                                         <span className="tag">Math</span>
-                                                        <span className="tag">Randomness</span>
                                                         <span className="tag">Classes</span>
                                                         <span className="tag">Strings</span>
                                                         <span className="tag">Events</span>
@@ -246,6 +248,7 @@ class Projects extends Component {
                                                         <span className="tag">Dependeny Injection</span>
                                                         <span className="tag">IO</span>
                                                         <span className="tag">DRY</span>
+                                                        <span className="tag">Azure</span>
                                                         <span className="tag">Design Patterns</span>
                                                         <span className="tag">SOLID</span>   
                                                         <span className="tag">Unit-Testing</span>   
@@ -309,6 +312,7 @@ class Projects extends Component {
                                                         <span className="tag">SSAS</span>
                                                         <span className="tag">SSRS</span>
                                                         <span className="tag">SSIS</span> 
+                                                        <span className="tag">KPIs</span>
                                                         <span className="tag">DAX</span>
                                                         <span className="tag">Data Warehouse</span>
                                                         <span className="tag">T-SQL</span>
@@ -316,7 +320,6 @@ class Projects extends Component {
                                                         <span className="tag">OLAP</span>
                                                         <span className="tag">Tabular</span>
                                                         <span className="tag">Data Modeling</span>
-                                                        <span className="tag">KPIs</span>
                                                         <span className="tag">Multi-Dimensional Models</span>
                                                     </div>
                                                 </div>

@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return (
             <div id="about" className="container">
-                <div className="tile is-ancestor section-spacing-parent tile-margin-override">
+                <div className="tile is-12 is-ancestor section-spacing-parent tile-margin-override">
                     <div className="tile is-child box border-radius-override">
                         <div className="container container-padding">
                             <div>
